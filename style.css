@@ -6,11 +6,175 @@ body {
 }
 
 header {
-    background: #004080;
+    background: #1b95a3;
     color: white;
     padding: 20px;
     text-align: center;
     position: relative;
+}
+
+/* Hero container */
+.hero-modern {
+    background: #fff;
+    color: #1a1a1a;
+    padding: 100px 20px;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #1b95a3;
+    /* Azure headline */
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.hero-buttons a {
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+.button-primary {
+    background-color: #1b95a3;
+    /* Azure button */
+    color: #fff;
+}
+
+.button-primary:hover {
+    background-color: #157a85;
+    /* Slightly darker on hover */
+    transform: translateY(-2px);
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: #1b95a3;
+    /* Azure border text */
+    border: 2px solid #1b95a3;
+}
+
+.button-secondary:hover {
+    background-color: #1b95a3;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Right: Visa Card */
+.hero-illustration {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-illustration .visa-card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.hero-illustration .visa-card {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.hero-illustration .visa-card:hover {
+    transform: translateY(-5px);
+}
+
+.hero-illustration .visa-card img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.hero-illustration .visa-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-illustration .visa-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.hero-illustration .visa-card .badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #1b95a3;
+    /* Azure badge */
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Floating animation */
+.hero-illustration .visa-card {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-buttons a {
+        margin-bottom: 10px;
+    }
+
+    .hero-illustration {
+        margin-bottom: 30px;
+    }
 }
 
 .logo {
@@ -48,7 +212,7 @@ main {
 }
 
 footer {
-    background: #333;
+    background: #273727;
     color: white;
     text-align: center;
     padding: 15px;
@@ -110,4 +274,16 @@ footer {
     font-size: 12px;
     color: #004080;
     margin-top: 5px;
+}
+
+header .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0a4bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header .logo:hover {
+    color: #073bb5;
 }
