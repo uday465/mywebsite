@@ -3,21 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Visa-Verse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>USA Visa Appointment Help | Visa-Verse</title>
+
+    <meta name="description"
+        content="Get early USA visa appointment slots with Visa-Verse. We specialize in US B1/B2 visa appointment monitoring and visa assistance for UK, Schengen and Australia.">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
-<a href="https://wa.me/918463944773?text=Hi%20I%20need%20help%20with%20visa%20appointment" class="whatsapp-float"
-    target="_blank">
+<script>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    const faqItems = document.querySelectorAll(".faq-item");
 
-</a>
+    faqItems.forEach(item => {
+
+        const question = item.querySelector(".faq-question");
+
+        question.addEventListener("click", () => {
+
+            item.classList.toggle("active");
+
+            const answer = item.querySelector(".faq-answer");
+
+            if (answer.style.maxHeight) {
+                answer.style.maxHeight = null;
+            } else {
+                answer.style.maxHeight = answer.scrollHeight + "px";
+            }
+
+        });
+
+    });
+
+</script>
 
 <body>
 
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918463944773?text=Hi%20I%20need%20help%20with%20visa%20appointment" class="whatsapp-float"
+        target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat">
+    </a>
+
+
     <header>
+
         <img src="logo.jpeg" alt="Visa-Verse Logo" class="logo">
+
         <h1>Visa-Verse</h1>
+
         <p class="tagline">Swift • Secure • OnTime</p>
 
         <nav>
@@ -25,48 +61,129 @@
             <a href="services.html">Services</a>
             <a href="contact.html">Contact</a>
         </nav>
+
     </header>
+
 
     <main>
 
-        <h2>Welcome to Your Trusted Visa Partner</h2>
-        <p>We help you with visa applications smoothly and quickly.</p>
+        <!-- HERO SECTION -->
 
-        <a href="contact.html" class="button">Get Started</a>
+        <h2>Fast USA Visa Appointment Assistance</h2>
 
-        <h2 style="margin-top:50px;">Visa Services</h2>
-        <a href="test.html">Test Page</a>
+        <p>
+            We specialize in helping applicants secure earlier
+            USA visa appointment slots. We also provide visa
+            guidance for UK, Schengen, and Australia visas.
+        </p>
+
+        <a href="contact.html" class="button">Book Consultation</a>
+
+        <a href="https://wa.me/918463944773" class="button">
+            Chat on WhatsApp
+        </a>
+
+
+
+        <!-- USA VISA SECTION -->
+
+        <h2 style="margin-top:50px;">USA Visa Appointment</h2>
 
         <div class="visa-grid">
 
             <a href="usa-visa.html" class="visa-card">
-                <img src="https://flagcdn.com/w320/us.png">
-                <p>USA Visa</p>
+
+                <img src="https://flagcdn.com/w160/us.png" alt="USA Visa">
+
+                <p>USA Visa Appointment</p>
+
                 <span class="fast">Faster Appointment Monitoring</span>
-            </a>
 
-            <a href="ukvisa.html" class="visa-card">
-                <img src="https://flagcdn.com/w320/gb.png">
-                <p>UK Visa</p>
-            </a>
-
-            <a href="schengen-visa.html" class="visa-card">
-                <img src="https://flagcdn.com/w320/eu.png" alt="Schengen Visa">
-                <p>Schengen Visa</p>
-            </a>
-
-            <a href="australiavisa.html" class="visa-card">
-                <img src="https://flagcdn.com/w320/au.png">
-                <p>Australia Visa</p>
             </a>
 
         </div>
 
+
+
+        <!-- OTHER VISA SERVICES -->
+
+        <h2 style="margin-top:50px;">Other Visa Services</h2>
+
+        <div class="visa-grid">
+
+            <a href="ukvisa.html" class="visa-card">
+
+                <img src="https://flagcdn.com/w160/gb.png" alt="UK Visa">
+
+                <p>UK Visa</p>
+
+            </a>
+
+            <a href="schengen-visa.html" class="visa-card">
+
+                <img src="https://flagcdn.com/w160/eu.png" alt="Schengen Visa">
+
+                <p>Schengen Visa</p>
+
+            </a>
+
+            <a href="australiavisa.html" class="visa-card">
+
+                <img src="https://flagcdn.com/w160/au.png" alt="Australia Visa">
+
+                <p>Australia Visa</p>
+
+            </a>
+
+        </div>
+
+
+
     </main>
 
+
+
     <footer>
+
         <p>© 2026 Visa-Verse</p>
+
+        <p>Email: support@visa-verse.com</p>
+
+        <p>WhatsApp: +91 84639 44773</p>
+
+        <p>Services: USA Visa Appointment | UK Visa | Schengen Visa | Australia Visa</p>
+
     </footer>
+
+
+
+    <!-- SCHEMA SEO -->
+
+    <script type="application/ld+json">
+
+{
+
+"@context": "https://schema.org",
+
+"@type": "Organization",
+
+"name": "Visa-Verse",
+
+"url": "https://www.visa-verse.com",
+
+"contactPoint": {
+
+"@type": "ContactPoint",
+
+"telephone": "+918463944773",
+
+"contactType": "customer service"
+
+}
+
+}
+
+</script>
 
 </body>
 
