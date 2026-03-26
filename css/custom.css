@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --primary: #1E3A8A;
-  --primary-light: #2563EB;
-  --secondary: #3B82F6;
+  --primary: #19454f;
+  --primary-light: #1b95a3;
+  --secondary: #38b3c3;
   --accent: #F59E0B;
   --success: #10B981;
   --danger: #EF4444;
@@ -27,11 +27,11 @@ body {
 
 /* ===== Gradient Backgrounds ===== */
 .gradient-hero {
-  background: linear-gradient(135deg, #1E3A8A 0%, #2563EB 50%, #3B82F6 100%);
+  background: linear-gradient(135deg, #0d2d33 0%, #177a87 50%, #1b95a3 100%);
 }
 
 .gradient-cta {
-  background: linear-gradient(135deg, #1E3A8A 0%, #1E40AF 100%);
+  background: linear-gradient(135deg, #0d2d33 0%, #19454f 100%);
 }
 
 /* ===== Animated Underline for Nav Links ===== */
