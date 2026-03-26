@@ -10,7 +10,7 @@ Deploy to GitHub Pages and access at: `https://<your-username>.github.io/visa-ve
 
 - **Homepage** with hero, stats, country cards, how-it-works, testimonials carousel, FAQ accordion
 - **Services page** with destination cards, pricing tiers (DIY / Assisted / Full Concierge), and US visa slot booking highlight
-- **8 country detail pages** (USA, UK, Canada, Australia, Schengen/EU, UAE, Singapore, Japan), each with:
+- **7 country detail pages** (USA, UK, Canada, Australia, Schengen/EU, Singapore, Japan), each with:
   - Tabbed interface (Overview, Dos & Don'ts, Document Checklist, Step-by-Step Process, FAQs)
   - Interactive document checklist
   - Timeline-based process visualization
@@ -47,7 +47,6 @@ visa-verse/
 │   ├── canada.html         # Canada guide
 │   ├── australia.html      # Australia guide
 │   ├── schengen.html       # Schengen / EU guide
-│   ├── uae.html            # Dubai / UAE guide
 │   ├── singapore.html      # Singapore guide
 │   └── japan.html          # Japan guide
 ├── css/

@@ -114,7 +114,7 @@
               </div>
               <span class="text-xl font-bold text-white">Visa<span class="text-blue-400">Verse</span></span>
             </a>
-            <p class="text-sm leading-relaxed">Your trusted partner for hassle-free visa processing across 8+ countries. Expert guidance from application to approval.</p>
+            <p class="text-sm leading-relaxed">Your trusted partner for hassle-free visa processing across 7+ countries. Expert guidance from application to approval.</p>
           </div>
           <div>
             <h4 class="text-white font-semibold mb-4">Quick Links</h4>
