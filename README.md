@@ -101,9 +101,9 @@ python3 -m http.server 8000
 
 ### WhatsApp Number
 
-Update the phone number in `js/main.js`:
+The WhatsApp number is configured in `js/main.js`:
 ```javascript
-const WHATSAPP_NUMBER = '1234567890'; // Replace with your actual number
+const WHATSAPP_NUMBER = '918463944773';
 ```
 
 ### Contact Form
