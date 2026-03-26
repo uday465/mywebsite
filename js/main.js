@@ -114,7 +114,7 @@
               </div>
               <span class="text-xl font-bold text-white">Visa<span class="text-blue-400">Verse</span></span>
             </a>
-            <p class="text-sm leading-relaxed">Your trusted partner for hassle-free visa processing across 7+ countries. Expert guidance from application to approval.</p>
+            <p class="text-sm leading-relaxed">Your trusted partner for hassle-free visa processing across 11+ countries. Expert guidance from application to approval.</p>
           </div>
           <div>
             <h4 class="text-white font-semibold mb-4">Quick Links</h4>
@@ -133,6 +133,10 @@
               <li><a href="${base}countries/canada.html" class="hover:text-white transition-colors">Canada</a></li>
               <li><a href="${base}countries/australia.html" class="hover:text-white transition-colors">Australia</a></li>
               <li><a href="${base}countries/schengen.html" class="hover:text-white transition-colors">Schengen / EU</a></li>
+              <li><a href="${base}countries/turkey.html" class="hover:text-white transition-colors">Turkey</a></li>
+              <li><a href="${base}countries/south-korea.html" class="hover:text-white transition-colors">South Korea</a></li>
+              <li><a href="${base}countries/ireland.html" class="hover:text-white transition-colors">Ireland</a></li>
+              <li><a href="${base}countries/vietnam.html" class="hover:text-white transition-colors">Vietnam</a></li>
             </ul>
           </div>
           <div>
