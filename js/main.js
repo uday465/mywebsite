@@ -295,6 +295,22 @@
     });
   }
 
+  /* ---------- Guaranteed Visa Date Calculator ---------- */
+  function initGuaranteeDates() {
+    document.querySelectorAll('[data-guarantee-days]').forEach(el => {
+      const days = parseInt(el.dataset.guaranteeDays, 10);
+      if (isNaN(days)) return;
+      const date = new Date();
+      date.setDate(date.getDate() + days);
+      const formatted = date.toLocaleDateString('en-US', {
+        day: 'numeric', month: 'short', year: 'numeric'
+      }) + ', ' + date.toLocaleTimeString('en-US', {
+        hour: 'numeric', minute: '2-digit', hour12: true
+      });
+      el.querySelector('.guarantee-date').textContent = formatted;
+    });
+  }
+
   /* ---------- Initialize Everything ---------- */
   function init() {
     injectNavbar();
@@ -306,6 +322,7 @@
     initScrollAnimations();
     initSmoothScroll();
     initNavbarScroll();
+    initGuaranteeDates();
   }
 
   if (document.readyState === 'loading') {
